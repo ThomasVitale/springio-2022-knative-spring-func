@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - image: ghcr.io/thomasvitale/devoxxuk/web-service:latest
+        - image: ghcr.io/thomasvitale/springio/web-service:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080

@@ -1,1 +1,1 @@
-# springio-2022-knative-spring-func
+# Knative and Spring - Bringing back the func (Spring I/O 2022)

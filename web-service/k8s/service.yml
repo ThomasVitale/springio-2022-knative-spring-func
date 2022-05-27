@@ -1,0 +1,12 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: web-service
+spec:
+  template:
+    spec:
+      containers:
+        - image: ghcr.io/thomasvitale/devoxxuk/web-service:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080

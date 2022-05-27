@@ -20,7 +20,7 @@ class GreetingController {
 
     @GetMapping("/")
     public Mono<String> getGreeting() {
-        return Mono.just("Welcome to London!");
+        return Mono.just("Welcome to Barcelona!");
     }
 
 }

@@ -1,4 +1,5 @@
 spring:
   cloud:
     function:
-      definition: uppercase|sentence
+      definition: functionRouter
+      routing-expression: headers['ce-type']

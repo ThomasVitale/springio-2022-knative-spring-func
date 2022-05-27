@@ -17,7 +17,7 @@ class WebServiceApplicationTests {
                 .get()
                 .exchange()
                 .expectBody(String.class)
-                .isEqualTo("Welcome to London!");
+                .isEqualTo("Welcome to Barcelona!");
     }
 
 }
